@@ -22,13 +22,14 @@ a {
 }
 .scorefindertext {
     position: relative;
-    top: 200px;
-    left: -255px;
-    height: 1px;
-    width: 500px;
+    height: 10px;
+    top: -190px;
+    left: -1px;
     font-family: Verdana serif;
     margin: auto;
-    font-size: 20px;
+    line-height: 20px;
+    width: 400px;
+    font-size: 22px;
     text-shadow: 1px 1px white;
     font-weight: bold;
     color: brown;
@@ -37,12 +38,13 @@ a {
 }
 .wheeltext {
     position: relative;
-    top: 210px;
-    left: 265px;
-    height: 15px;
-    width: 500px;
+    height: 10px;
+    top: -170px;
+    left: -1px;
     font-family: Verdana serif;
     margin: auto;
+    line-height: 20px;
+    width: 400px;
     font-size: 22px;
     text-shadow: 1px 1px white;
     font-weight: bold;
@@ -62,7 +64,7 @@ a {
     position: relative;
     height: 10px;
     top: -190px;
-    left: -250px;
+    left: -255px;
     font-family: Verdana serif;
     margin: auto;
     line-height: 20px;
@@ -109,7 +111,16 @@ a {
 #contactinfo2 {
     text-align: center;
 }
-.projects {
+.projects1 {
+    position: relative;
+    bottom: 60px;
+    height: 700px;
+    left: 0.5px;
+    width: 100%;
+    padding: 1px;
+    display: inline;
+}
+.projects2 {
     position: relative;
     bottom: 60px;
     height: 700px;
