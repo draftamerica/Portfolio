@@ -1,0 +1,182 @@
+a {
+    text-decoration: none;
+    color: brown;
+}
+.header {
+    position: relative;
+    margin: auto;
+    height: 200px;
+    width: 500px;
+    border: 1px solid black;
+    background-color: silver;
+}
+#headertext {
+    position: relative;
+    text-align: center;
+    top: 10px;
+    font-weight: bold;
+    font-style: Verdana serif;
+    font-size: 40px;
+    text-shadow: 1px 1px white;
+    letter-spacing: 0.1em;
+}
+.scorefindertext {
+    position: relative;
+    top: 200px;
+    left: -255px;
+    height: 1px;
+    width: 500px;
+    font-family: Verdana serif;
+    margin: auto;
+    font-size: 20px;
+    text-shadow: 1px 1px white;
+    font-weight: bold;
+    color: brown;
+    z-index: 1;
+    visibility: hidden;
+}
+.wheeltext {
+    position: relative;
+    top: 210px;
+    left: 265px;
+    height: 15px;
+    width: 500px;
+    font-family: Verdana serif;
+    margin: auto;
+    font-size: 22px;
+    text-shadow: 1px 1px white;
+    font-weight: bold;
+    color: brown;
+    z-index: 1;
+    visibility: hidden;
+}
+.mediasamples {
+    position: relative;
+    bottom: 60px;
+    left: 260px;
+    margin: auto;
+    padding: 1px;
+    display: inline;
+}
+.bloginfo {
+    position: relative;
+    height: 10px;
+    top: -190px;
+    left: -250px;
+    font-family: Verdana serif;
+    margin: auto;
+    line-height: 20px;
+    width: 400px;
+    font-size: 22px;
+    text-shadow: 1px 1px white;
+    font-weight: bold;
+    color: brown;
+    z-index: 1;
+    visibility: hidden;
+}
+#draftamerica {
+    position: relative;
+    top: 40px;
+    left: -262px;
+    margin: 5px;
+    height: 300px;
+    width: 505px;
+    border: 1px solid black;
+}
+/*#draftamerica:hover {
+    position: relative;
+    margin: auto;
+    top: 60px;
+    height: 325px;
+    width: 550px;
+    border: 3px solid blue;
+}*/
+#contactinfo {
+    /*border: 1px solid green;
+    border-bottom: 1px solid black;
+    border-radius: 5px;*/
+    /*background-color: gray;*/
+    /*border-top-left-radius: 150px;
+    border-top-right-radius: 150px;*/
+    position: relative;
+    align-items: center;
+    font-size: 23px;
+    top: 29px;
+    font-style: Georgia serif;
+    letter-spacing: 0.1em;
+    color: black;
+}
+#contactinfo2 {
+    text-align: center;
+}
+.projects {
+    position: relative;
+    bottom: 60px;
+    height: 700px;
+    left: 0.5px;
+    width: 100%;
+    padding: 1px;
+    display: inline;
+}
+.projectheader {
+    position: relative;
+    top: 30px;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-family: Verdana serif;
+    font-size: 30px;
+    color: brown;
+    text-shadow: 1px 1px green;
+    text-align: center;
+    line-height: 1px;
+}
+#wheelpic {
+    position: relative;
+    top: 60px;
+    margin: 5px;
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+}
+#wheelpic:hover {
+    top: 60px;
+    margin: auto;
+    height: 325px;
+    width: 550px;
+    border: 3px solid blue;
+}
+#scorefinder {
+    position: relative;
+    margin: auto;
+    top: 60px;
+    height: 300px;
+    width: 500px;
+    margin: 5px;
+    border: 1px solid black;
+}
+#scorefinder:hover {
+    position: relative;
+    margin: auto;
+    top: 60px;
+    height: 325px;
+    width: 550px;
+    border: 3px solid blue;
+}
+.mediaheader {
+    position: relative;
+    top: 40px;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-family: Verdana serif;
+    font-size: 30px;
+    color: brown;
+    text-shadow: 1px 1px green;
+    text-align: center;
+    line-height: 1px;
+}
