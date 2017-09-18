@@ -70,6 +70,21 @@ body {
     z-index: 1;
     visibility: visible;
 }
+.blogtitle {
+    position: relative;
+    height: 10px;
+    top: -120px;
+    left: -1px;
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    line-height: 22px;
+    width: 400px;
+    font-size: 50px;
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+    z-index: 1;
+    visibility: visible;
+}
 .wheeltext {
     position: relative;
     height: 10px;
@@ -89,9 +104,12 @@ body {
 .mediasamples {
     position: relative;
     bottom: 60px;
-    margin: auto;
+    height: 700px;
+    left: 0.5px;
+    width: 302px;
     padding: 1px;
-    display: grid;
+    display: inline;
+    opacity: 0.75;
 }
 .bloginfo {
     position: relative;
@@ -194,13 +212,13 @@ body {
 }
 .mediaheader {
     position: relative;
-    top: 40px;
+    top: 30px;
     height: 100px;
     width: 100%;
     margin: 0;
     font-weight: bold;
     letter-spacing: 0.1em;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
     font-size: 30px;
     text-shadow: 1px 1px #dedfe0;
     text-align: center;

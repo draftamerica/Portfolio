@@ -137,13 +137,15 @@ $(".wheeltitle").mouseleave(function(){
 $('#draftamerica').hover(function(){
   $('#draftamerica').css("border", "3px solid blue");
   $('#draftamerica').css("height", "325px");
-  $('#draftamerica').css("width", "550px")
+  $('#draftamerica').css("width", "550px");
+  $('.blogtitle').css("visibility", "hidden")
 });
 
 $('#draftamerica').mouseleave(function(){
   $('#draftamerica').css("border", "1px solid black");
   $('#draftamerica').css("height", "300px");
-  $('#draftamerica').css("width", "505px")
+  $('#draftamerica').css("width", "505px");
+  $('.blogtitle').css("visibility", "visible")
 });
 
 $('.bloginfo').hover(function(){
@@ -152,6 +154,7 @@ $('.bloginfo').hover(function(){
   $('#draftamerica').css("height", "325px");
   $('#draftamerica').css("width", "550px");
   $('#draftamerica').css("opacity", "0.2");
+  $('.blogtitle').css("visibility", "hidden");
   $('#draftamerica').css("background-color", "gray")
 });
 $(".bloginfo").mouseleave(function(){
@@ -159,5 +162,6 @@ $(".bloginfo").mouseleave(function(){
   $('#draftamerica').css("border", "1px solid black");
   $('#draftamerica').css("height", "300px");
   $('#draftamerica').css("width", "505px");
+  $('.blogtitle').css("visibility", "visible");
   $('#draftamerica').css("opacity", "1")
 });
