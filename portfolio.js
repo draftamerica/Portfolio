@@ -1,41 +1,59 @@
 $('#scorefinder').hover(function(){
   $('.scorefindertext').css("visibility", "visible");
   $('#scorefinder').css("opacity", "0.2");
-  $('#scorefinder').css("background-color", "gray")
+  $('.scorefindertitle').css("visibility", "hidden");
+  $('#scorefinder').css("background-color", "gray");
 });
 $("#scorefinder").mouseleave(function(){
   $('.scorefindertext').css("visibility", "hidden");
-  $('#scorefinder').css("opacity", "1")
+  $('.scorefindertitle').css("visibility", "visible");
+  $('#scorefinder').css("opacity", "0.75");
 });
 
 $('.scorefindertext').hover(function(){
   $('.scorefindertext').css("visibility", "visible");
+  $('.scorefindertitle').css("visibility", "hidden");
   $('#scorefinder').css("opacity", "0.2");
   $('#scorefinder').css("background-color", "gray")
 });
 $(".scorefindertext").mouseleave(function(){
   $('.scorefindertext').css("visibility", "hidden");
-  $('#scorefinder').css("opacity", "1")
+  $('.scorefindertitle').css("visibility", "visible");
+  $('#scorefinder').css("opacity", "0.75")
+});
+
+$('.scorefindertitle').hover(function(){
+  $('.scorefindertitle').css("visibility", "hidden");
+  $('#scorefinder').css("opacity", "0.2");
+  $('#scorefinder').css("background-color", "gray")
+});
+$(".scorefindertitle").mouseleave(function(){
+  $('.scorefindertitle').css("visibility", "visible");
+  $('#scorefinder').css("opacity", "0.75")
 });
 
 $('#wheelpic').hover(function(){
   $('.wheeltext').css("visibility", "visible");
   $('#wheelpic').css("opacity", "0.2");
+  $('.wheeltitle').css("visibility", "hidden");
   $('#wheelpic').css("background-color", "gray")
 });
 $("#wheelpic").mouseleave(function(){
   $('.wheeltext').css("visibility", "hidden");
-  $('#wheelpic').css("opacity", "1")
+  $('.wheeltitle').css("visibility", "visible");
+  $('#wheelpic').css("opacity", "0.75")
 });
 
 $('.wheeltext').hover(function(){
   $('.wheeltext').css("visibility", "visible");
+  $('.wheeltitle').css("visibility", "hidden");
   $('#wheelpic').css("opacity", "0.2");
   $('#wheelpic').css("background-color", "gray")
 });
 $(".wheeltext").mouseleave(function(){
   $('.wheeltext').css("visibility", "hidden");
-  $('#wheelpic').css("opacity", "1")
+  $('.wheeltitle').css("visibility", "visible");
+  $('#wheelpic').css("opacity", "0.75")
 });
 
 $('#draftamerica').hover(function(){
@@ -46,7 +64,7 @@ $('#draftamerica').hover(function(){
 
 $("#draftamerica").mouseleave(function(){
   $('.bloginfo').css("visibility", "hidden");
-  $('#draftamerica').css("opacity", "1")
+  $('#draftamerica').css("opacity", "0.75")
 });
 
 $('#scorefinder').hover(function(){
@@ -104,6 +122,17 @@ $(".wheeltext").mouseleave(function(){
   $('#wheelpic').css("width", "505px");
   $('#wheelpic').css("opacity", "1")
 });
+
+$('.wheeltitle').hover(function(){
+  $('.wheeltitle').css("visibility", "hidden");
+  $('#wheelpic').css("opacity", "0.2");
+  $('#wheelpic').css("background-color", "gray")
+});
+$(".wheeltitle").mouseleave(function(){
+  $('.wheeltitle').css("visibility", "visible");
+  $('#wheeltext').css("opacity", "0.75")
+});
+
 
 $('#draftamerica').hover(function(){
   $('#draftamerica').css("border", "3px solid blue");

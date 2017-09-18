@@ -40,6 +40,36 @@ body {
     z-index: 1;
     visibility: hidden;
 }
+.scorefindertitle {
+    position: relative;
+    height: 10px;
+    top: -120px;
+    left: -1px;
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    line-height: 22px;
+    width: 400px;
+    font-size: 50px;
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+    z-index: 1;
+    visibility: visible;
+}
+.wheeltitle {
+    position: relative;
+    height: 10px;
+    top: -120px;
+    left: -1px;
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    line-height: 22px;
+    width: 400px;
+    font-size: 50px;
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+    z-index: 1;
+    visibility: visible;
+}
 .wheeltext {
     position: relative;
     height: 10px;
@@ -104,6 +134,7 @@ body {
     width: 100%;
     padding: 1px;
     display: inline;
+    opacity: 0.75;
 }
 .projects2 {
     position: relative;
@@ -113,6 +144,7 @@ body {
     width: 100%;
     padding: 1px;
     display: inline;
+    opacity: 0.75;
 }
 .projectheader {
     position: relative;
