@@ -23,6 +23,15 @@ body {
     font-size: 45px;
     text-shadow: 1px 1px white;
     letter-spacing: 0.1em;
+    opacity: 0.8;
+}
+#headertext:hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        color: #000066;
+        opacity: 1;
+        letter-spacing: 0.25em;
 }
 .scorefindertext {
     position: relative;
@@ -143,6 +152,9 @@ body {
 }
 #contactinfo2 {
     text-align: center;
+}
+#contactinfo2:hover {
+    text-decoration: underline;
 }
 .projects1 {
     position: relative;
